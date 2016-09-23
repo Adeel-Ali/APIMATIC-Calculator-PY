@@ -20,9 +20,9 @@ class SimpleCalculatorControllerTests(ControllerTestBase):
     def test_summation_test(self):
         # Parameters for the API call
         options = {}
-        options['operation'] = None
-        options['x'] = None
-        options['y'] = None
+        options['operation'] = 'SUM'
+        options['x'] = 5
+        options['y'] = 6
 
         # Perform the API call through the SDK function
         result = self.controller.get_calculate(options)
