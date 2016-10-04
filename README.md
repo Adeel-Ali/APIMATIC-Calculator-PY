@@ -1,4 +1,5 @@
 # Getting Started
+
 ## How to Build
 
 
@@ -12,7 +13,7 @@ This should display the current version of the PIP Dependency Manager installed 
 * Using command line, navigate to the directory containing the generated files (including ```requirements.txt```) for the SDK. 
 Run the command ```pip install -r requirements.txt```. This should install all the required dependencies.
 
-![Building SDK - Step 1](http://apidocs.io/illustration/python?step=installDependencies&workspaceFolder=APIMATIC Calculator-Python)
+![Building SDK - Step 1](http://apidocs.io/illustration/python?step=installDependencies&workspaceFolder=APIMATIC%20Calculator-Python)
 
 
 ## How to Use
@@ -26,17 +27,17 @@ Open an IDE for Python like PyCharm. The basic workflow presented here is also a
 
 Click on ```Open``` in PyCharm to browse to your generated SDK directory and then click ```OK```.
 
-![Open project in PyCharm - Step 2](http://apidocs.io/illustration/python?step=openProject0&workspaceFolder=APIMATIC Calculator-Python)     
+![Open project in PyCharm - Step 2](http://apidocs.io/illustration/python?step=openProject0&workspaceFolder=APIMATIC%20Calculator-Python)     
 
 The project files will be displayed in the side bar as follows:
 
-![Open project in PyCharm - Step 3](http://apidocs.io/illustration/python?step=openProject1&workspaceFolder=APIMATIC Calculator-Python&projectName=apimaticcalculatorlib)     
+![Open project in PyCharm - Step 3](http://apidocs.io/illustration/python?step=openProject1&workspaceFolder=APIMATIC%20Calculator-Python&projectName=apimaticcalculatorlib)     
 
 
 #### 2. Add a new Test Project
 Create a new directory by right clicking on the solution name as shown below:
 
-![Add a new project in PyCharm - Step 1](http://apidocs.io/illustration/python?step=createDirectory&workspaceFolder=APIMATIC Calculator-Python&projectName=apimaticcalculatorlib)
+![Add a new project in PyCharm - Step 1](http://apidocs.io/illustration/python?step=createDirectory&workspaceFolder=APIMATIC%20Calculator-Python&projectName=apimaticcalculatorlib)
 
 Name the directory as "test"
 
@@ -44,7 +45,7 @@ Name the directory as "test"
    
 Add a python file to this project with the name "testsdk"
 
-![Add a new project in PyCharm - Step 3](http://apidocs.io/illustration/python?step=createFile&workspaceFolder=APIMATIC Calculator-Python&projectName=apimaticcalculatorlib)
+![Add a new project in PyCharm - Step 3](http://apidocs.io/illustration/python?step=createFile&workspaceFolder=APIMATIC%20Calculator-Python&projectName=apimaticcalculatorlib)
 
 Name it "testsdk"
 
@@ -54,7 +55,7 @@ In your python file you will be required to import the generated python library 
    ```Python
    from apimaticcalculatorlib.apimaticcalculator_client import *
    ```
-![Add a new project in PyCharm - Step 4](http://apidocs.io/illustration/python?step=projectFiles&workspaceFolder=APIMATIC Calculator-Python&libraryName=apimaticcalculatorlib.apimaticcalculator_client&projectName=apimaticcalculatorlib)
+![Add a new project in PyCharm - Step 4](http://apidocs.io/illustration/python?step=projectFiles&workspaceFolder=APIMATIC%20Calculator-Python&libraryName=apimaticcalculatorlib.apimaticcalculator_client&projectName=apimaticcalculatorlib)
 
 After this you can add code to initialize the client library and acquire the instance of a Controller class. Sample code to initialize the client library and using controller methods is given in the subsequent sections.
 
@@ -62,7 +63,7 @@ After this you can add code to initialize the client library and acquire the ins
 #### 3. Run the Test Project
 To run the file within your test project, right click on your Python file inside your Test project and click on ```Run```
 
-![Run Test Project - Step 1](http://apidocs.io/illustration/python?step=runProject&workspaceFolder=APIMATIC Calculator-Python&libraryName=apimaticcalculatorlib.apimaticcalculator_client&projectName=apimaticcalculatorlib)
+![Run Test Project - Step 1](http://apidocs.io/illustration/python?step=runProject&workspaceFolder=APIMATIC%20Calculator-Python&libraryName=apimaticcalculatorlib.apimaticcalculator_client&projectName=apimaticcalculatorlib)
 
 
 ## How to Test
